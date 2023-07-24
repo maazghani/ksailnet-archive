@@ -1,8 +1,8 @@
 {
-  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "runArgs": ["--device=/dev/net/tun"],
   "features": {
-    "ghcr.io/tailscale/codespace": {},
+    "ghcr.io/tailscale/codespace/tailscale:1": {},
     "ghcr.io/devcontainers/features/sshd:1": {}
   }
 }
